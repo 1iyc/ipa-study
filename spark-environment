@@ -1,0 +1,20 @@
+py4j error
+java version must be 6~8
+
+spark download
+https://spark.apache.org/downloads.html
+
+python 3.7.0
+java 1.8
+
+spark environment parameter
+export SPARK_HOME=~/spark-2.3.1-bin-hadoop2.7
+export PYSPARK_DRIVER_PYTHON="jupyter"
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+alias snotebook='$SPARK_PATH/bin/pyspark --master local[2]'
+
+export PYSPARK_PYTHON=/usr/local/bin/python3
+export PYSPARK_DRIVER_PYTHON=python3
+
+java version
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
